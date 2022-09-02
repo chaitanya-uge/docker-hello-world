@@ -1,4 +1,4 @@
-FROM busybox:latest
+FROM dockerregistry-v2.vih.infineon.com/busybox
 ENV PORT=8000
 LABEL maintainer="Chris <c@crccheck.com>"
 
